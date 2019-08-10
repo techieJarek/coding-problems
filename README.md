@@ -56,10 +56,10 @@ Given a string, find the length of the longest substring without repeating chara
 
 **BreadthFirstSearch** -
 Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
-
+<pre>
   1
  / \
 2   3
    / \
   4   5
-
+</pre>
