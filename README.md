@@ -54,7 +54,7 @@ NOTE: BigInteger slows down performance but was used here to pass the test on ve
 **LongestSubstringWithoutRepeatingCharacters.java** - 
 Given a string, find the length of the longest substring without repeating characters.
 
-**BreadthFirstSearch** -
+**BreadthFirstSearch.java** -
 Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
 <pre>
   1
