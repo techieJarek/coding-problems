@@ -49,8 +49,6 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 
-NOTE: BigInteger slows down performance but was used here to pass the test on very large numbers
-
 [**LongestSubstringWithoutRepeatingCharacters.java**](https://github.com/techieJarek/coding-problems/blob/master/LongestSubstringWithoutRepeatingCharacters.java) - 
 Given a string, find the length of the longest substring without repeating characters.
 
