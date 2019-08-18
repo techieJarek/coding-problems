@@ -68,3 +68,6 @@ For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb
 
 [**LongestPalindromicSubstring.java**](https://github.com/techieJarek/coding-problems/blob/master/LongestPalindromicSubstring.java)
 Given a string s, find the longest palindromic substring in s.
+
+[**ReverseInteger.java**](https://github.com/techieJarek/coding-problems/blob/master/ReverseInteger.java)
+Given a 32-bit signed integer, reverse digits of an integer.
