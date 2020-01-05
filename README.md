@@ -71,3 +71,6 @@ Given a string s, find the longest palindromic substring in s.
 
 [**ReverseInteger.java**](https://github.com/techieJarek/coding-problems/blob/master/ReverseInteger.java) - 
 Given a 32-bit signed integer, reverse digits of an integer.
+
+[**NeedleInAHaystack.java**](https://github.com/techieJarek/coding-problems/blob/master/NeedleInAHaystack.java)
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
