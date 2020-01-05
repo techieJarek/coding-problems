@@ -17,6 +17,10 @@ public class AnyTwoListNumbersAddUpToK {
 
         System.out.println("Executing solveWithImprovement: ");
         solveWithImprovement(list, k);
+        
+        System.out.println("Executing solveUsingHashMap: ");
+        solveUsingHashMap(list, k);
+
     }
 
     /**
@@ -41,7 +45,7 @@ public class AnyTwoListNumbersAddUpToK {
      * 7 + 3 = 10
      *
      */
-    public static void solveBruteForce(List<Integer> list, int k){
+    private static void solveBruteForce(List<Integer> list, int k){
         for(int i=0; i<list.size(); i++){
             for(int j=0; j<list.size(); j++){
                 if(i == j){
@@ -89,6 +93,25 @@ public class AnyTwoListNumbersAddUpToK {
             });
 
             alreadyTraversed.add(currentlyTraversedNumber);
+        }
+    }
+    
+     /**
+     *
+     * @param list
+     * @param k
+     *
+     * OUTPUT:
+     * 7 + 10 = 17 Success
+     *
+     */
+    private static void solveUsingHashMap(List<Integer> list, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i<list.size(); i++) {
+            if(map.containsKey(k - list.get(i))){
+                System.out.print(list.get(i) + " + " + (k - list.get(i)) + " = " + k + " Success\n");
+            }
+            map.put(list.get(i), i);
         }
     }
 }
