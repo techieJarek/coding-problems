@@ -24,6 +24,18 @@ For the purpose of this problem, assume that your function returns 0 when the re
 public class ReverseInteger {
     public static void main(String[] args){
         System.out.println("Reversed int : " + reverse(-123));
+        System.out.println("Reversed int alternative approach: " + reverseAlternativeApproach(-123));
+    }
+    
+    private static int reverseAlternativeApproach(int num) {
+        int reversed = 0;
+        while(num != 0){
+            if(reversed > Integer.MAX_VALUE/10 || (reversed == Integer.MAX_VALUE/10 && num % 10 > 7 )) return 0;
+            if(reversed < Integer.MIN_VALUE/10 || reversed == Integer.MIN_VALUE && num % 10 < -8) return 0;
+            reversed = (reversed * 10) + (num % 10);
+            num = num/10;
+        }
+        return reversed;
     }
 
     private static int reverse(int i) {
