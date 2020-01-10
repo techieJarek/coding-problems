@@ -79,3 +79,6 @@ Return the index of the first occurrence of needle in haystack, or -1 if needle 
 Given a sorted integer array where the range of elements are [0, 99] inclusive, return its
 missing ranges.
 For example, given [0, 1, 3, 50, 75], return [“2”, “4->49”, “51->74”, “76->99”]
+
+[**PalindromeNumber.java**](https://github.com/techieJarek/coding-problems/blob/master/PalindromeNumber.java) - 
+Determine whether an integer is a palindrome. Do this without extra space.
