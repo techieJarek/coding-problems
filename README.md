@@ -83,6 +83,9 @@ For example, given [0, 1, 3, 50, 75], return [“2”, “4->49”, “51->74”
 [**PalindromeNumber.java**](https://github.com/techieJarek/coding-problems/blob/master/PalindromeNumber.java) - 
 Determine whether an integer is a palindrome. Do this without extra space.
 
-[**MergeTwoSortedLists**](https://github.com/techieJarek/coding-problems/blob/master/MergeTwoSortedLists.java) - 
+[**MergeTwoSortedLists.java**](https://github.com/techieJarek/coding-problems/blob/master/MergeTwoSortedLists.java) - 
 Merge two sorted linked lists and return it as a new list. The new list should be made by
 splicing together the nodes of the first two lists.
+
+[**ValidateBST.java**](https://github.com/techieJarek/coding-problems/blob/master/ValidateBST.java) - 
+Given a binary tree, determine if it is a valid Binary Search Tree (BST).
