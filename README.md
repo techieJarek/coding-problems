@@ -91,5 +91,5 @@ splicing together the nodes of the first two lists.
 Given a binary tree, determine if it is a valid Binary Search Tree (BST).
 
 [**MaximumDepthOfBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/MaximumDepthOfBinaryTree.java) - Given a binary tree, find its maximum depth.
-The maximum depth is the number of nodes along the longest path from the root node
-down to the farthest leaf node.
+
+[**MinimumDepthOfBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/MinimumDepthOfBinaryTree.java) - Given a binary tree, find its minimum depth.
