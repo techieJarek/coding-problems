@@ -95,3 +95,5 @@ Given a binary tree, determine if it is a valid Binary Search Tree (BST).
 [**MinimumDepthOfBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/MinimumDepthOfBinaryTree.java) - Given a binary tree, find its minimum depth.
 
 [**BalancedBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/BalancedBinaryTree.java) - Given a binary tree, determine if it is height-balanced.
+
+[**SingleNumber.java**](https://github.com/techieJarek/coding-problems/blob/master/SingleNumber.java) - Given a non-empty array of integers, every element appears twice except for one. Find that single one.
