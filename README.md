@@ -93,3 +93,5 @@ Given a binary tree, determine if it is a valid Binary Search Tree (BST).
 [**MaximumDepthOfBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/MaximumDepthOfBinaryTree.java) - Given a binary tree, find its maximum depth.
 
 [**MinimumDepthOfBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/MinimumDepthOfBinaryTree.java) - Given a binary tree, find its minimum depth.
+
+[**BalancedBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/BalancedBinaryTree.java) - Given a binary tree, determine if it is height-balanced.
