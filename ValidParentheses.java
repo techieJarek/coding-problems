@@ -1,5 +1,3 @@
-import com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringStack;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -23,17 +21,17 @@ public class ValidParentheses {
     }
 
     private static boolean isValid(String s) {
-        Stack<Character> openingCharsStack = new StringStack();
-        Map<Character, Character> matchingParentheses = new HashMap();
-        matchingParentheses.put('{', '}');
-        matchingParentheses.put('(', ')');
-        matchingParentheses.put('[', ']');
+        Stack<Character> openingCharsStack = new Stack<>();
+        Map<Character, Character> map = new HashMap();
+        map.put('{', '}');
+        map.put('(', ')');
+        map.put('[', ']');
         for(char c : s.toCharArray()){
-            if(matchingParentheses.containsKey(c)) {
+            if(map.containsKey(c)) {
                 openingCharsStack.push(c);
             }
-            else if((openingCharsStack.isEmpty() && matchingParentheses.containsValue(c))
-                    || (!openingCharsStack.isEmpty() && matchingParentheses.get(openingCharsStack.pop()) != c)) {
+            else if((openingCharsStack.isEmpty() && map.containsValue(c))
+                    || (!openingCharsStack.isEmpty() && map.get(openingCharsStack.pop()) != c)) {
                 return false;
             }
         }
