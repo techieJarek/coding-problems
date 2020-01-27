@@ -97,3 +97,7 @@ Given a binary tree, determine if it is a valid Binary Search Tree (BST).
 [**BalancedBinaryTree.java**](https://github.com/techieJarek/coding-problems/blob/master/BalancedBinaryTree.java) - Given a binary tree, determine if it is height-balanced.
 
 [**SingleNumber.java**](https://github.com/techieJarek/coding-problems/blob/master/SingleNumber.java) - Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+
+[**ValidParentheses.java**](https://github.com/techieJarek/coding-problems/blob/master/ValidParentheses.java) - Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and
+"([)]" are not.
