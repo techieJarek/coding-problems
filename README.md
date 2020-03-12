@@ -103,3 +103,5 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 "([)]" are not.
 
 [**AppleOrchardTree.java**](https://github.com/techieJarek/coding-problems/blob/master/AppleOrchardTree.java) -  A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag. Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
+
+[**SerializeDeserializeBST.java**](https://github.com/techieJarek/coding-problems/blob/master/SerializeDeserializeBST.java) - Design an algorithm to serialize and deserialize a binary search tree.
