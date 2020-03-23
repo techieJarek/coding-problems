@@ -107,3 +107,5 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 [**SerializeDeserializeBST.java**](https://github.com/techieJarek/coding-problems/blob/master/SerializeDeserializeBST.java) - Design an algorithm to serialize and deserialize a binary search tree.
 
 [**UniquePaths.java**](https://github.com/techieJarek/coding-problems/blob/master/UniquePaths.java) - A robot is located at the top-left corner of a m x n grid. The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid. How many possible unique paths are there?
+
+[**RangeSumOfBST**](https://github.com/techieJarek/coding-problems/blob/master/RangeSumOfBST.java) - Given the root node of a binary search tree, return the sum of values of all nodes with value between L and R (inclusive). The binary search tree is guaranteed to have unique values.
